@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="style.css">
-	<script src="script.js"></script>
+
 	<title>CISC 3610 Assignment 1</title>
 </head>
 <body>
@@ -18,24 +18,29 @@
 	</div>
 	<div class="content">
 		<div class="textytext">
-			<b>Audio Lab</b>
-			<form id="stringmaker">
-				<label>Enter Text</label><br>
-				<input type="text" name="message" id="user_input" value="noun"><br>
-				<input type="text" name="message" id="user_input1" value="verb"><br>
-				<input type="text" name="message" id="user_input2" value ="adverb"><br>
-				<input type="text" name="message" id="user_input3" value="noun"><br>
-				<input type="text" name="message" id="user_input4" value="number"> <br>
-			</form>
-			<input type="submit" onclick="showInput();"> <br><br>
-			<label>Concatenated String: </label><br>
-			<span id="display"></span>
+			<strong>Audio Lab</strong>
+			<br>
+			<br>
+			    <form>
+    				<input type="text" id="name" placeholder="Name"> <br>
+    				<input type="text" id="number" placeholder="Number"> <br>
+    				<input type="text" id="noun" placeholder="Noun Plural"> <br>
+    				<input type="text" id="verb" placeholder="Verb"> <br>
+    				<input type="text" id="animal" placeholder="Animal"> <br>
+    				<input type="text" id="name2" placeholder="Name"> <br>
+				    <input type="radio" id="voice" name="voice" value="1"> Voice 1
+				    <input type="radio" id="voice" name="voice" value="2"> Voice 2
+				    <input type="radio" id="voice" name="voice" value="0"> Voice 3
+
+				    <input type="submit">
+				    </form>
 
 
-
+	<script src="script.js"></script>
 
 		</div>
 	</div>
 	<div class="bottom">This is the bottom of the page. 2017.</div>
 </body>
 </html>
+
