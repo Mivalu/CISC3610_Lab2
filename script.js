@@ -27,7 +27,8 @@ inputForm.onsubmit = function(event) {
   	if (options[i].checked){
   	  	utterThis.voice = voices[parseInt(options[i].value)];
   	  	break;
-  	  }
+  	} else
+  		utterThis.voice = voices[2];
   }
   
   synth.speak(utterThis);
